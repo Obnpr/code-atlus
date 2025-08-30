@@ -1,22 +1,42 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const HomePage: React.FC = () => (
   <main className="main-content">
     <section className="square">
-      <h1>Hey, I'm Obed Negrón from the beautiful island of Puerto Rico! Here you'll find various information about me.</h1>
+      <h1>Hey, I'm Obed Negrón from the beautiful island of Puerto Rico!</h1>
+        <div className="titlesubdiv">
+          <div className="titlesubtext">
+          <a >I'm a undergraduate student that likes software development and with experience in various other field from computer hardware to video-game Development.</a>
+          </div>
+          <div className="titlesubtext">
+          <img 
+            className="titlesubimage"
+            src="/picture/profile-icon.jpg"
+            alt="A picture of Obed Negron"
+          />
+          </div>
+        </div>  
       <ul>
-        <li>Lorem Ipsum</li>
-        <li>Lorem Ipsum</li>
-        <li>Lorem Ipsum</li>
         <li>
           <a 
-            href="/public/pdf/Resume-ObedNegron.pdf" 
+            href="/pdf/Resume-ObedNegron.pdf" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="button-link"
+            className="mainpage-buttons"
           >
             Resume
           </a>
+          <Link to="/About-Me">
+          <a 
+            href="/pdf/Resume-ObedNegron.pdf" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="mainpage-buttons"
+          >
+          About Me
+          </a>
+          </Link>
         </li>
       </ul>
       <h2>Current Projects</h2>
