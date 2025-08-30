@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import PastProjectsPage from './components/PastProjects';
+import PortfolioCollage from './components/PortfolioCollage';
 import AppTestPage from './Apptest';
 //
 import './App.css';
@@ -26,6 +27,7 @@ const App: React.FC = () => {
               <Route path="/Past-Projects" element={<PastProjectsPage />} />
               <Route path="/Portfolio" element={<Portfolio />} />
               <Route path="/About-Me" element={<AboutMe />} />
+              <Route path="/Portfolio-Collage" element={<PortfolioCollage />} />
               <Route path="/AppTest" element={<AppTestPage />} />
             </Routes>
           </main>

@@ -29,7 +29,7 @@ const HomePage: React.FC = () => (
           </a>
           <Link to="/About-Me">
           <a 
-            href="/pdf/Resume-ObedNegron.pdf" 
+            href="#" 
             target="_blank" 
             rel="noopener noreferrer"
             className="mainpage-buttons"
