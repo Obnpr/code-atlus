@@ -9,7 +9,7 @@ return (
   <div>
     <header>
       <img 
-        src="/logo/logo.png"
+        src="./logo/logo.png"
         alt="A logo with the name website creator, 'Obed Negron'"
       />
     </header>

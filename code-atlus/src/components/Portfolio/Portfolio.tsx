@@ -13,7 +13,7 @@ const Portfolio: React.FC = () => {
           <ul className="portfolio-article-container">
             <div className="portfolio-article-box">
               <img
-                src="/placeholder/game-image.webp"
+                src="./placeholder/game-image.webp"
                 alt="A picture of Obed Negron"
               />
                 <h3>CienPi</h3>
@@ -34,7 +34,7 @@ const Portfolio: React.FC = () => {
             </div>
             <div className="portfolio-article-box">
               <img
-                src="/placeholder/game-image.webp"
+                src="./placeholder/game-image.webp"
                 alt="Placeholder image of a game stick"
               />
                 <h3>N/A</h3>
@@ -58,12 +58,12 @@ const Portfolio: React.FC = () => {
           <ul className="portfolio-article-container">
             <div className="portfolio-article-box">
               <img
-                src="/placeholder/game-image.webp"
+                src="./placeholder/game-image.webp"
                 alt="Placeholder image of a game stick"
               />
               <img
                 className="portfolio-article-box-logo"
-                src="/logo/fuelzone-logo.webp"
+                src="./logo/fuelzone-logo.webp"
                 alt="Logo of Fuelzone"
               />
                 <h3>FuelZone</h3>
@@ -86,7 +86,7 @@ const Portfolio: React.FC = () => {
             </div>
             <div className="portfolio-article-box">
               <img
-                src="/placeholder/game-image.webp"
+                src="./placeholder/game-image.webp"
                 alt="A picture of Obed Negron"
               />
                 <h3>N/A</h3>
