@@ -10,7 +10,6 @@ import AboutMe from '../AboutMe/AboutMe';
 import Portfolio from '../Portfolio/Portfolio';
 import PastProjectsPage from '../PastProjects/PastProjects';
 import PortfolioCollage from '../PortfolioCollage/PortfolioCollage';
-import AppTestPage from '../Apptest/Apptest';
 //
 import './MainPage.css';
 import '../mobile/mobile.css';
@@ -29,7 +28,6 @@ const App: React.FC = () => {
               <Route path="/Portfolio" element={<Portfolio />} />
               <Route path="/About-Me" element={<AboutMe />} />
               <Route path="/Portfolio-Collage" element={<PortfolioCollage />} />
-              <Route path="/AppTest" element={<AppTestPage />} />
             </Routes>
           </main>
         </div>

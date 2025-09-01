@@ -4,27 +4,6 @@ const link = document.getElementById('is-disabled');
 
 const Portfolio: React.FC = () => {
 
-
-function toggleLinkState() {
-  if (isEnabled) {
-    // --- DISABLE THE LINK ---
-    link.id = 'is-disabled'; // Change the ID to apply the CSS style
-    link.removeAttribute('href'); 
-    link.setAttribute('aria-disabled', 'true');
-    link.setAttribute('tabindex', '-1');
-    isEnabled = false;
-    console.log("Link disabled. Current ID:", link.id);
-  } else {
-    // --- ENABLE THE LINK ---
-    link.id = originalId; // Change the ID back to the original
-    link.setAttribute('href', originalHref);
-    link.removeAttribute('aria-disabled');
-    link.removeAttribute('tabindex');
-    isEnabled = true;
-    console.log("Link enabled. Current ID:", link.id);
-  }
-}
-
   return (
     <>
       <main className="main-content-box">

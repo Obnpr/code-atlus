@@ -100,18 +100,6 @@ function Sidebar() {
           </a>
           </Link>
         </li>
-                <li>
-          <Link to="/AppTest">
-          <a 
-            href="/App-Test" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="sidebar-buttons"
-          >
-          App Test
-          </a>
-          </Link>
-        </li>
       </ul>
     </aside>
   );
