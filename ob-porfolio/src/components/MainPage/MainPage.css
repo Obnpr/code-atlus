@@ -1,8 +1,9 @@
-/* General styles */
+/* Mouse Related */
 html, body {
   cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="rgba(0, 0, 0, 0.5)"><circle cx="12" cy="12" r="10" stroke="white" stroke-width="2" fill="white"/></svg>') 12 12, auto !important; 
 }
 
+/* Force Button (a & Button) and input/Hover on Button, etc.. to use the custom Mouse */
 a,
 button,
 [role="button"],
@@ -13,39 +14,36 @@ select {
   cursor: inherit;
 }
 
+/* Structure the Sidebar and main-content-view correctly */
+.components-structured {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
 body {
+  background-color: #000319 !important;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   justify-content: center;
   align-items: center;
-  background-color: #000319 !important;
-  margin: 0;
-  padding: 0;
 }
 
 .app {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh; /* Take full height of the screen */
-}
-
-/* Main content styles */
-.content {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px 0;
-  flex-grow: 1; /* Push footer down to the bottom */
+  min-height: 100vh;
 }
 
 .main-content {
+  background-color: #282b39;
   display: grid;
   grid-template-columns: 1fr;
   gap: 0px;
   flex-grow: 1;
   color: white;
-  background-color: #282b39;
   padding: 30px;
   box-sizing: border-box;
   border-radius: 6px;
@@ -73,11 +71,11 @@ body {
 }
 
 .square a {
-  text-decoration: none;
   color: white;
+  text-decoration: none;
 }
 
 .square:hover a {
-  text-decoration: none;
   color: white;
+  text-decoration: none;
 }

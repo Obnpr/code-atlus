@@ -2,9 +2,20 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Sidebar.css';
 
-const Sidebar: React.FC = () => (
-    <aside className="sidebar">
+function Sidebar() {
+  return (
+      <aside className="sidebar">
       <ul>
+        <li>
+          <Link to="/">
+            <img 
+              className="sidebar-image-buttons"
+              src="./logo/osmiumbits-logo.jpg"
+              alt="Picture-Logo of Osmium Bits"
+              title="Go Home — Logo of Osmium Bits" 
+            />
+          </Link>
+        </li>
         <li>
           <Link to="/">
           <a 
@@ -103,6 +114,8 @@ const Sidebar: React.FC = () => (
         </li>
       </ul>
     </aside>
-);
+  );
+}
+
 
 export default Sidebar;

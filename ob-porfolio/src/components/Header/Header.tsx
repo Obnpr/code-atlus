@@ -1,13 +1,28 @@
 import React from 'react';
 import './Header.css';
 
-const Header: React.FC = () => (
-  <header className="header">
-    <img 
-      src="/logo/logo.png"
-      alt="A logo with the name website creator, 'Obed Negron'"
+function Header() {
+
+
+return (
+  <aside className="header-list">
+  <div>
+    <header>
+      <img 
+        src="/logo/logo.png"
+        alt="A logo with the name website creator, 'Obed Negron'"
+      />
+    </header>
+    <img
+      src="./logo/osmiumbits-logo.jpg"
+      className="sidebar-collapse-button"
+      alt="Colapse Sidemenu button"
+      title="Colapse Sidemenu" 
     />
-  </header>
+  </div>  
+  </aside>
 );
+
+}
 
 export default Header;

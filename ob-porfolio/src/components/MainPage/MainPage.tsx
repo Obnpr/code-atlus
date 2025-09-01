@@ -20,7 +20,7 @@ const App: React.FC = () => {
     <Router>
       <div className="app">
         <Header />
-        <div className="content">
+        <div className="components-structured">
           <Sidebar />
           <main className="main-content-area">
             <Routes>

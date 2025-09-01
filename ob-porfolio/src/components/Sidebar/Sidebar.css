@@ -1,10 +1,8 @@
-/* Sidebar styles */
 .sidebar {
-  width: 200px;
   background-color: #17182b;
+  color: white !important;
+  width: 200px;
   padding: 20px;
-  box-sizing: border-box;
-  color: white;
   box-sizing: border-box;
   border-radius: 6px;
   margin-right: 10px;
@@ -13,10 +11,6 @@
 .sidebar ul {
   list-style-type: none;
   padding: 0;
-}
-
-.sidebar li {
-  margin: 10px 0;
 }
 
 .sidebar a {
@@ -32,16 +26,16 @@
   border-top: 3px solid #cccccc;
   padding-top: 20px;
 }
+
 .sidebar-buttons {
-  display: grid; /* Allows padding and margins */
-  padding: 6px;
+  border: 0px solid #000319;
+  display: grid;
+  padding: 5px;
   background-color: transparent;
-  border: 0px solid #000319; /* A nice blue color for the outline */
-  border-radius: 5px;      /* Rounded corners */
+  border-radius: 7px;      /* Rounded corners */
   text-decoration: none;     /* Removes the default link underline */
   font-weight: bold;
-  text-align: left;
-  color: #ffffff !important;      
+  text-align: left;    
   transition: all 0.3s ease; /* Smooth transition for hover effects */
   margin-left: 0px;
   margin-bottom: 10px;
@@ -51,6 +45,20 @@
 .sidebar-buttons:hover {
   background-color: #000319;
   border: 2px solid #000319;
-  color: #ffffff !important;
+  color: white !important;
+  transform: scale(1.10);
+}
+
+.sidebar-image-buttons {
+  width: 160px;
+  background-color: transparent;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+
+.sidebar-image-buttons:hover {
   transform: scale(1.10);
 }
