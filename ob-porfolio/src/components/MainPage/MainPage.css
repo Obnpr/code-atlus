@@ -37,7 +37,7 @@ body {
   min-height: 100vh;
 }
 
-.main-content {
+.main-content-box {
   background-color: #282b39;
   display: grid;
   grid-template-columns: 1fr;
@@ -52,30 +52,34 @@ body {
   max-width: 1000px;
 }
 
-.square h1 {
+.main-content h1 {
+  font-size: 2.5rem;
   margin-top: 10px;
 }
 
-.square h2 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+.main-content h2 {
+  font-size: 2.0rem;
 }
 
-.square ul {
+.main-content h3 {
+  font-size: 1.8rem;
+}
+
+.main-content h4 {
+  font-size: 1.5rem;
+}
+
+.main-content ul {
   list-style-type: none;
   padding: 0;
 }
 
-.square li {
-  margin: 5px 0;
-}
-
-.square a {
+a {
   color: white;
   text-decoration: none;
 }
 
-.square:hover a {
+a:hover {
   color: white;
   text-decoration: none;
 }

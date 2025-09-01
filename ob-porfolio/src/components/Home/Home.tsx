@@ -9,8 +9,8 @@ function HomePage() {
   }, []);
 
   return (
-    <main className="main-content">
-      <div className="square">
+    <main className="main-content-box">
+      <div className="main-content">
         <h1>Hey, I'm Obed Negrón from the beautiful island of Puerto Rico!</h1>
         <div className="titlesubdiv">
           <div className="titlesubtext">

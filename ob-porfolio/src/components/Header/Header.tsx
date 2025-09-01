@@ -14,7 +14,7 @@ return (
       />
     </header>
     <img
-      src="./logo/osmiumbits-logo.jpg"
+      src="./page-elements/MenuBar.webp"
       className="sidebar-collapse-button"
       alt="Colapse Sidemenu button"
       title="Colapse Sidemenu" 
