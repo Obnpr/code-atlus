@@ -1,9 +1,8 @@
 import React, { useEffect } from 'react';
 
 function PorfolioCollage() {
-    // This useEffect hook runs once after the component mounts
+  //  useEffect runs once after component mounts
   useEffect(() => { document.title = 'Porfolio Collage — Obed Negrón';}, []);
-  //
   return (
     <>
     <main className="main-content">
