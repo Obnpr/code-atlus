@@ -1,4 +1,5 @@
 import React from 'react';
+import './PastProjects.css';
 
 const PastProjectPage: React.FC = () => (
   <main className="main-content">

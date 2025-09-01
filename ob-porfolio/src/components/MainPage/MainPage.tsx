@@ -1,18 +1,19 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 //
-import Header from './components/Header';
-import Sidebar from './components/Sidebar';
-import HomePage from './components/MainContent';
-import Footer from './components/Footer';
+import Header from '../Header/Header';
+import Sidebar from '../Sidebar/Sidebar';
+import HomePage from '../Home/Home';
+import Footer from '../Footer/Footer';
 //
-import AboutMe from './components/AboutMe';
-import Portfolio from './components/Portfolio';
-import PastProjectsPage from './components/PastProjects';
-import PortfolioCollage from './components/PortfolioCollage';
-import AppTestPage from './Apptest';
+import AboutMe from '../AboutMe/AboutMe';
+import Portfolio from '../Portfolio/Portfolio';
+import PastProjectsPage from '../PastProjects/PastProjects';
+import PortfolioCollage from '../PortfolioCollage/PortfolioCollage';
+import AppTestPage from '../Apptest/Apptest';
 //
-import './App.css';
+import './MainPage.css';
+import '../mobile/mobile.css';
 
 const App: React.FC = () => {
   return (

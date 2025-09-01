@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import './AboutMe.css';
 
 function AboutMe() {
     // This useEffect hook runs once after the component mounts

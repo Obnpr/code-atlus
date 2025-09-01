@@ -1,4 +1,5 @@
 import React from 'react';
+import './Portfolio.css';
 
 // Main App component
 const Portfolio: React.FC = () => {

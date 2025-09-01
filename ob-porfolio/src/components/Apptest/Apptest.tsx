@@ -1,7 +1,7 @@
 // import ListGroup from "./components/ListGroup";
 import { useState } from "react";
-import Alert from "./components/test-components/Alert";
-import AlertButton from "./components/test-components/AlertButton";
+import Alert from "../test-components/Alert";
+import AlertButton from "../test-components/AlertButton";
 
 function App() {
   // let items = ["New York", "Orlando", "Chicago", "Houston", "Los Angeles"];

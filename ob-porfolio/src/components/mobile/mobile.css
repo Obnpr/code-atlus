@@ -1,0 +1,41 @@
+body {
+  overflow-x: hidden; /* Prevent horizontal scroll on mobile */
+}
+
+/* For smaller screens (e.g., mobile) */
+@media (max-width: 768px) {
+  body {
+    flex-direction: column; /* Stack the sidebar and main content vertically */
+    justify-content: flex-start;
+  }
+
+  /* Sidebar */
+  .sidebar {
+    width: 100%; /* Sidebar takes full width */
+    position: static; /* Remove fixed position */
+    box-shadow: none; /* Optional: remove box shadow on mobile */
+  }
+
+  /* Main content */
+  .main-content {
+    width: 90%; /* Increase width on smaller screens */
+    padding: 20px; /* Reduce padding */
+  }
+
+  /* Main content heading */
+  .main-content h1 {
+    font-size: 1.2rem; /* Slightly smaller heading on mobile */
+  }
+
+  /* Sidebar links */
+  .sidebar a {
+    margin: 10px 0;
+  }
+
+  .header {
+    padding: 30px;
+    img {
+      width: 90%; /* Images will take up 90% of the container on small screens */
+    }
+}
+}

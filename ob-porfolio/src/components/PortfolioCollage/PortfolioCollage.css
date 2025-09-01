@@ -1,0 +1,74 @@
+.portfoliocollage-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0px;
+  flex-grow: 1;
+  color: white;
+  background-color: #282b39;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 80%;
+  min-width: 1000px;
+  max-width: 1000px;
+}
+
+.portfoliocollage-div h1 {
+  margin-top: 10px;
+}
+
+.portfoliocollage-div h2 {
+  font-size: 26px;
+}
+
+.portfoliocollage-div h3 {
+  font-size: 24px;
+}
+
+.portfoliocollage-div ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.portfoliocollage-div li {
+  margin: 5px 0;
+}
+
+.portfoliocollage-div a {
+  text-decoration: none;
+  color: white;
+}
+
+.portfoliocollage-div:hover a {
+  text-decoration: none;
+  color: white;
+}
+
+.portfoliocollage-dateformat {
+  display: flex;
+  gap: 4%;
+}
+
+.portfoliocollage-buttons {
+  display: grid; /* Allows padding and margins */
+  padding: 6px;
+  background-color: transparent;
+  border: 0px solid #2f3fbb; /* A nice blue color for the outline */
+  border-radius: 5px;      /* Rounded corners */
+  text-decoration: none;     /* Removes the default link underline */
+  font-weight: bold;
+  text-align: left;
+  color: #ffffff !important;      
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  margin-left: 0px;
+  margin-bottom: 10px;
+  scroll-behavior: smooth;
+}
+
+/* Style for when you hover over the button */
+.portfoliocollage-buttons:hover {
+  background-color: #000319;
+  border: 2px solid #000319;
+  color: #ffffff !important;
+  transform: scale(1.03);
+}

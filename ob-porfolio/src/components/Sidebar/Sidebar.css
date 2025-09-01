@@ -1,0 +1,56 @@
+/* Sidebar styles */
+.sidebar {
+  width: 200px;
+  background-color: #17182b;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar-seperator-before {
+  padding-bottom: 10px;
+}
+
+.sidebar-seperator-after {
+  border-top: 3px solid #cccccc;
+  padding-top: 20px;
+}
+.sidebar-buttons {
+  display: grid; /* Allows padding and margins */
+  padding: 6px;
+  background-color: transparent;
+  border: 0px solid #000319; /* A nice blue color for the outline */
+  border-radius: 5px;      /* Rounded corners */
+  text-decoration: none;     /* Removes the default link underline */
+  font-weight: bold;
+  text-align: left;
+  color: #ffffff !important;      
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+
+/* Style for when you hover over the button */
+.sidebar-buttons:hover {
+  background-color: #000319;
+  border: 2px solid #000319;
+  color: #ffffff !important;
+  transform: scale(1.10);
+}
