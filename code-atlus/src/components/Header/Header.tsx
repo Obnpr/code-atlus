@@ -11,6 +11,7 @@ return (
       <img 
         src="./logo/logo.png"
         alt="A logo with the name website creator, 'Obed Negron'"
+        className="header-obedn-logo"
       />
     </header>
     <img

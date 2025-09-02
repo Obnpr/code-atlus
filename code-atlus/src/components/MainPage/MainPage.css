@@ -28,6 +28,7 @@ body {
   padding: 0;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden; 
 }
 
 .app {
@@ -52,34 +53,34 @@ body {
   max-width: 1000px;
 }
 
-.main-content h1 {
+.main-content-box h1 {
   font-size: 2.5rem;
   margin-top: 10px;
 }
 
-.main-content h2 {
+.main-content-box h2 {
   font-size: 2.0rem;
 }
 
-.main-content h3 {
+.main-content-box h3 {
   font-size: 1.8rem;
 }
 
-.main-content h4 {
+.main-content-box h4 {
   font-size: 1.5rem;
 }
 
-.main-content ul {
+.main-content-box ul {
   list-style-type: none;
   padding: 0;
 }
 
-a {
+main-content-box a {
   color: white;
   text-decoration: none;
 }
 
-a:hover {
+main-content-box a:hover {
   color: white;
   text-decoration: none;
 }

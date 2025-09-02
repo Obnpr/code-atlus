@@ -1,0 +1,75 @@
+/*  */
+@media (max-width: 768px) {
+/* Structure the Sidebar and main-content-view correctly */
+  .components-structured {
+    display: grid;
+    justify-content: space-between;
+    flex-grow: 1;
+    gap: 15px;
+  }
+
+/* Main content */
+  .main-content-box {
+    width: 90%;
+    padding: 20px;
+    min-width: 420px;
+    max-width: 420px;
+    margin-left: 6px;
+  }
+
+  .main-content-box h1, h2, h3, h4, ul, li, p {
+    max-width: 400px;
+  }
+
+  .main-content-box h1 {
+    font-size: 1.0rem;
+  }
+
+  .main-content-box h2 {
+    font-size: 2.0rem;
+  }
+
+  .main-content-box h3 {
+    font-size: 1.8rem;
+  }
+
+  .main-content-box h4 {
+    font-size: 1.5rem;
+  }
+
+  .main-content-box ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+
+/* Header */
+  .header-list {
+    padding: 10px;
+}
+
+  .header-obedn-logo {
+    width: 360px;
+}
+
+  .sidebar-collapse-button {
+    width: 60px;
+    margin-bottom: -20px;
+    margin-top: 10px;
+    margin-left: -35px;
+}
+
+
+/* Sidebar */
+  .sidebar {
+    display: flex;
+    min-width: 420px;
+    max-width: 420px;
+    margin-left: 6px;
+  }
+  .sidebar a {
+    margin: 10px 0;
+    width: 180px;
+  }
+
+}

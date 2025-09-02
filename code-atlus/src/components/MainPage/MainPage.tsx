@@ -12,7 +12,7 @@ import PastProjectsPage from '../PastProjects/PastProjects';
 import PortfolioCollage from '../PortfolioCollage/PortfolioCollage';
 //
 import './MainPage.css';
-import '../mobile/mobile.css';
+import '../Mobile/mobile.css';
 
 const App: React.FC = () => {
   return (
