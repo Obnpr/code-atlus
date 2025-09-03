@@ -1,13 +1,25 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Sidebar.css';
+import './SidebarMobile.css';
 
-function Sidebar() {
+interface SidebarProps {
+  isOpen: boolean;
+}
+
+const Sidebar: React.FC<SidebarProps> = ({ isOpen }) => {
+const sidebarVisibility = `sidebar${!isOpen ? '-collapsed' : ''}`;
+  
+
   return (
-      <aside className="sidebar">
-      <ul>
-        <li className="sidebar-li">
-          <Link to="/">
+      <aside 
+        className={sidebarVisibility} 
+        data-status={sidebarVisibility}
+      >
+          <Link 
+          to="/"
+          className="sidebar-li"
+          >
             <img 
               className="sidebar-image-buttons"
               src="./logo/osmiumbits-logo.jpg"
@@ -15,80 +27,40 @@ function Sidebar() {
               title="Go Home — Logo of Osmium Bits" 
             />
           </Link>
-        </li>
-        <li className="sidebar-li">
-          <Link to="/">
-          <a 
-            href="/" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="sidebar-buttons"
+          <Link 
+          to="/"
+          className="sidebar-buttons"
           >
           Home
-          </a>
           </Link>
-        </li>
-        <li className="sidebar-li">
-          <Link to="/About-Me">
-          <a 
-            href="/About-Me" 
-            target="_blank" 
-            rel="noopener noreferrer"
+          <Link 
+            to="/About-Me"
             className="sidebar-buttons"
           >
           About Me
-          </a>
           </Link>
-        </li>
-        <li className="sidebar-li">
-          <Link to="/Portfolio-Collage">
-          <a 
-            href="/Portfolio-Collage" 
-            target="_blank" 
-            rel="noopener noreferrer"
+          <Link to="/Portfolio-Collage"
             className="sidebar-buttons"
           >
           Portfolio Collage Ver.
-          </a>
           </Link>
-        </li>
-        <li className="sidebar-li">
-          <Link to="/Portfolio">
-          <a 
-            href="/Portfolio" 
-            target="_blank" 
-            rel="noopener noreferrer"
+          <Link to="/Portfolio"
             className="sidebar-buttons"
           >
           Portfolio
-          </a>
           </Link>
-        </li>
-        <li className="sidebar-seperator-before">
-          <Link to="/Past-Projects">
-          <a 
-            href="/Past-Projects" 
-            target="_blank" 
-            rel="noopener noreferrer"
+          <Link 
+            to="/Past-Projects"
             className="sidebar-buttons"
           >
           Contact Me
-          </a>
           </Link>
-        </li>
-        <li className="sidebar-seperator-after">
-          <Link to="/Osmium-Bits">
-          <a 
-            href="/Osmium-Bits" 
-            target="_blank" 
-            rel="noopener noreferrer"
+          <Link 
+            to="/Osmium-Bits"
             className="sidebar-buttons"
           >
           Osmium Bits
-          </a>
           </Link>
-        </li>
-      </ul>
     </aside>
   );
 }

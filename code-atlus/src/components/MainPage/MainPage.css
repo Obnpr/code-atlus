@@ -11,7 +11,7 @@ input[type="submit"],
 input[type="reset"],
 label[for],
 select {
-  cursor: inherit;
+  cursor: inherit !important;
 }
 
 /* Structure the Sidebar and main-content-view correctly */
@@ -80,4 +80,8 @@ body {
 .main-content-box a:hover {
   color: white;
   text-decoration: none;
+}
+
+[data-status="sidebar-collapsed"] {
+  margin-top: 200px;
 }

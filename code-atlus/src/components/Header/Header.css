@@ -5,6 +5,8 @@
 }
 
 .sidebar-collapse-button {
+  background-color: transparent;
+  border: 0px;
   width: 70px;
   font-weight: bold;
   transition: all 0.3s ease;

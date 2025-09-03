@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 //
 import Header from '../Header/Header';
@@ -13,13 +13,18 @@ import PortfolioCollage from '../PortfolioCollage/PortfolioCollage';
 import './MainPage.css';
 import './MainPageMobile.css';
 
-const App: React.FC = () => {
+function App() {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const handleToggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
+
   return (
     <Router>
       <div className="app">
-        <Header />
+        <Header onToggle={handleToggleSidebar} />
         <div className="components-structured">
-          <Sidebar />
+          <Sidebar isOpen={isSidebarOpen} />
           <main className="main-content-area">
             <Routes>
               <Route path="/" element={<HomePage />} />

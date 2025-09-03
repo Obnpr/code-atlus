@@ -65,3 +65,18 @@
 .sidebar-image-buttons:hover {
   transform: scale(1.10);
 }
+
+.sidebar-collapsed {
+  width: 0px !important;
+  min-width: 0px;
+  height: 0px !important;
+  min-height: 0px;
+  padding: 0px !important;
+  margin: 0px !important;
+  border: none !important; 
+  overflow: hidden !important;
+  
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}

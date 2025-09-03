@@ -38,7 +38,7 @@ function PorfolioCollage() {
           <h4>Works</h4>
           <a href="#part-frontpage" className="portfoliocollage-buttons">Past projects</a>
           </li>
-        <br></br><hr></hr><br></br>
+          <hr></hr>
           <ul>
               <h2 id="part-portfolio-objective">Portfolio Objectives</h2>
               <h2>Lorem Ipsum</h2>
