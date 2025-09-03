@@ -1,0 +1,19 @@
+@media (max-width: 780px) {
+.titlesubimage {
+  width: 150px;
+  margin-top: 15px;
+  flex-shrink: 0;
+}
+
+.titlesubtext {
+  margin-right: 10px;
+}
+
+.mainpage-buttons-box {
+  margin-left: 13px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+
+}

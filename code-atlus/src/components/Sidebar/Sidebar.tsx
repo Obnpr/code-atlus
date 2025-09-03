@@ -6,7 +6,7 @@ function Sidebar() {
   return (
       <aside className="sidebar">
       <ul>
-        <li>
+        <li className="sidebar-li">
           <Link to="/">
             <img 
               className="sidebar-image-buttons"
@@ -16,7 +16,7 @@ function Sidebar() {
             />
           </Link>
         </li>
-        <li>
+        <li className="sidebar-li">
           <Link to="/">
           <a 
             href="/" 
@@ -28,7 +28,7 @@ function Sidebar() {
           </a>
           </Link>
         </li>
-        <li>
+        <li className="sidebar-li">
           <Link to="/About-Me">
           <a 
             href="/About-Me" 
@@ -40,7 +40,7 @@ function Sidebar() {
           </a>
           </Link>
         </li>
-        <li>
+        <li className="sidebar-li">
           <Link to="/Portfolio-Collage">
           <a 
             href="/Portfolio-Collage" 
@@ -52,7 +52,7 @@ function Sidebar() {
           </a>
           </Link>
         </li>
-        <li>
+        <li className="sidebar-li">
           <Link to="/Portfolio">
           <a 
             href="/Portfolio" 
@@ -64,7 +64,7 @@ function Sidebar() {
           </a>
           </Link>
         </li>
-        <li>
+        <li className="sidebar-li">
           <Link to="/Past-Projects">
           <a 
             href="/Past-Projects" 

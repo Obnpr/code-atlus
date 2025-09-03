@@ -1,5 +1,5 @@
 /*  */
-@media (max-width: 768px) {
+@media (max-width: 780px) {
 /* Structure the Sidebar and main-content-view correctly */
   .components-structured {
     display: grid;
@@ -12,29 +12,29 @@
   .main-content-box {
     width: 90%;
     padding: 20px;
-    min-width: 420px;
-    max-width: 420px;
-    margin-left: 6px;
+    min-width: 335px;
+    max-width: 335px;
+    margin-left: 10px;
   }
 
   .main-content-box h1, h2, h3, h4, ul, li, p {
-    max-width: 400px;
+    max-width: 300px;
   }
 
   .main-content-box h1 {
-    font-size: 1.0rem;
-  }
-
-  .main-content-box h2 {
-    font-size: 2.0rem;
-  }
-
-  .main-content-box h3 {
     font-size: 1.8rem;
   }
 
+  .main-content-box h2 {
+    font-size: 1.6.0rem;
+  }
+
+  .main-content-box h3 {
+    font-size: 1.4rem;
+  }
+
   .main-content-box h4 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .main-content-box ul {
@@ -45,31 +45,37 @@
 
 /* Header */
   .header-list {
-    padding: 10px;
+    padding: 0px;
 }
 
   .header-obedn-logo {
-    width: 360px;
+    width: 300px;
 }
 
   .sidebar-collapse-button {
-    width: 60px;
-    margin-bottom: -20px;
+    width: 50px;
+    margin-bottom: -10px;
     margin-top: 10px;
-    margin-left: -35px;
+    margin-left: -20px;
 }
 
 
 /* Sidebar */
   .sidebar {
     display: flex;
-    min-width: 420px;
-    max-width: 420px;
-    margin-left: 6px;
+    min-width: 335px;
+    max-width: 335px;
+    margin-left: 10px;
   }
   .sidebar a {
     margin: 10px 0;
     width: 180px;
+  }
+
+  .sidebar img {
+    margin: 10px 0;
+    width: 100px;
+    display: flex;
   }
 
 }
