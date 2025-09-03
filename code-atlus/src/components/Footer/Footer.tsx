@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import './FooterMobile.css';
 
 const Footer: React.FC = () => (
   <footer className="footer">

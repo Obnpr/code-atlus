@@ -11,7 +11,7 @@ import Portfolio from '../Portfolio/Portfolio';
 import PortfolioCollage from '../PortfolioCollage/PortfolioCollage';
 //
 import './MainPage.css';
-import '../Mobile/mobile.css';
+import './MainPageMobile.css';
 
 const App: React.FC = () => {
   return (

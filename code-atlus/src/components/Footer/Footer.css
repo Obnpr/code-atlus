@@ -1,9 +1,8 @@
 .footer {
   background-color: #17182b;
-  padding: 10px;
   text-align: center;
   width: 100%;
-  padding: 20px; /* Increase padding for more space */
-  margin-top: auto; /* Ensure footer stays at the bottom */
+  padding: 20px;
+  margin-top: 0px;
   color: white;
 }

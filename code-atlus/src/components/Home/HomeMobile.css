@@ -2,6 +2,7 @@
 .titlesubimage {
   width: 150px;
   margin-top: 15px;
+  margin-right: 0px;
   flex-shrink: 0;
 }
 
