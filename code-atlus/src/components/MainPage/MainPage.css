@@ -23,11 +23,6 @@ select {
 
 body {
   background-color: #000319 !important;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-  align-items: center;
   overflow-x: hidden; 
 }
 
@@ -45,7 +40,7 @@ body {
   gap: 0px;
   flex-grow: 1;
   color: white;
-  padding: 20px;
+  padding: 30px;
   box-sizing: border-box;
   border-radius: 6px;
   width: 80%;
@@ -77,12 +72,12 @@ body {
   padding: 0;
 }
 
-main-content-box a {
+.main-content-box a {
   color: white;
   text-decoration: none;
 }
 
-main-content-box a:hover {
+.main-content-box a:hover {
   color: white;
   text-decoration: none;
 }

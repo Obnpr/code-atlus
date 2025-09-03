@@ -14,7 +14,7 @@ function HomePage() {
       <article className="main-content">
         <h1>Hey, I'm Obed Negrón from the beautiful island of Puerto Rico!</h1>
         <div className="titlesubdiv">
-            <p className="titlesubtext">I'm an undergraduate student that likes software development and with experience in various other fields from computer hardware to video-game Development.</p>
+            <p className="titlesubtext">I'm a current undergraduate student that likes software development and front-end development. I also have experience in several fields, from computer hardware to video-game development.</p>
             <figure>
             <img 
               className="titlesubimage"
