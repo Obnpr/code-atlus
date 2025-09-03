@@ -48,7 +48,7 @@ function Sidebar() {
             rel="noopener noreferrer"
             className="sidebar-buttons"
           >
-          Portfolio Collage
+          Portfolio Collage Ver.
           </a>
           </Link>
         </li>
@@ -61,18 +61,6 @@ function Sidebar() {
             className="sidebar-buttons"
           >
           Portfolio
-          </a>
-          </Link>
-        </li>
-        <li className="sidebar-li">
-          <Link to="/Past-Projects">
-          <a 
-            href="/Past-Projects" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="sidebar-buttons"
-          >
-          Past Projects
           </a>
           </Link>
         </li>

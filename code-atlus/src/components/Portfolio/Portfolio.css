@@ -53,6 +53,7 @@ a#is-disabled {
   background-color: #17182b;
   border: 5px solid #17182b;
   cursor: not-allowed;
+  transform: scale(1.00);
 }
 
 .portfolio-article-button-alignment {

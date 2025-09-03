@@ -1,5 +1,6 @@
 import React from 'react';
 import './Portfolio.css';
+import './PortfolioMobile.css';
 const link = document.getElementById('is-disabled'); 
 
 const Portfolio: React.FC = () => {

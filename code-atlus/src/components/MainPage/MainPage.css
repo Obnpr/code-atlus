@@ -51,6 +51,8 @@ body {
   width: 80%;
   min-width: 1000px;
   max-width: 1000px;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .main-content-box h1 {

@@ -11,13 +11,13 @@
   transition: all 0.3s ease;
   margin-right: 10px;
   margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .mainpage-buttons:hover {
   color: #ffffff !important;
   transform: scale(1.10);
 }
-
 
 
 .titlesubdiv {

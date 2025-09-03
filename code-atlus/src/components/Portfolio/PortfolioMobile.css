@@ -1,0 +1,21 @@
+@media (max-width: 780px) {
+/*Box Related*/
+.portfolio-article-container{
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+/*Button Related*/
+.portfolio-article-button-alignment {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  left: 100px;
+  margin-left: 10px;
+  margin-bottom: 100px;
+}
+
+
+}

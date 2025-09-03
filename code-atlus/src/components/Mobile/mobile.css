@@ -26,7 +26,7 @@
   }
 
   .main-content-box h2 {
-    font-size: 1.6.0rem;
+    font-size: 1.6rem;
   }
 
   .main-content-box h3 {
@@ -42,6 +42,9 @@
     padding: 0;
   }
 
+  .main-content-box hr {
+    max-width: 290px;
+  }
 
 /* Header */
   .header-list {
