@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 //
 import Header from '../Header/Header';
@@ -14,13 +14,50 @@ import './MainPage.css';
 import './MainPageMobile.css';
 
 function App() {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true); // Sidebar hide func
+  const [isVisible, setIsVisible] = useState(false); // Scroll-Up func
+
+// Sidebar hide func
   const handleToggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
 
+// Scroll-Up func
+  const toggleVisibility = () => {
+  if (window.pageYOffset > 1200) {
+    setIsVisible(true);
+  } else {
+    setIsVisible(false);
+  }
+};
+  useEffect(() => {
+    window.addEventListener('scroll', toggleVisibility);
+    return () => {
+      window.removeEventListener('scroll', toggleVisibility);
+    };
+  }, []);
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 80,
+      behavior: 'smooth' // for a smooth scrolling experience
+    });
+  };
+
+  
   return (
     <Router>
+        <div className="static-scrollup">
+          {isVisible && (
+          <button onClick={scrollToTop} className="scroll-button">
+          <img
+            className="static-scrollup"
+            src="/page-elements/scroll-up.webp"
+            alt="Icon to Scroll up"
+          >
+          </img>
+          </button>
+          )}
+        </div>
       <div className="app">
         <Header onToggle={handleToggleSidebar} />
         <div className="components-structured">

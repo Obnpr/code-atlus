@@ -81,4 +81,26 @@
     display: flex;
   }
 
+/* Convinience */
+.static-scrollup {
+  position: sticky;
+  width: 75px;
+  height: 75px;
+  top: 690px;
+  right: 600px;
+  z-index: 1000;
+  background-color: transparent;
+}
+
+.static-scrollup button{
+  position: sticky;
+  width: 100px;
+  height: 100px;
+  top: 100px;
+  right: 200px;
+  z-index: 1000;
+  background-color: transparent;
+  border: transparent;
+}
+
 }
