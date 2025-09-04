@@ -1,4 +1,4 @@
-# obnpr.com
-This was is one of my early proyects github, now turned into my personal porfolio!
+# obnpr.github.io
 
-(ignore unless you're interested!)
+*This is a Collage Project, please ignore! 
+(unless you're interested)
