@@ -60,4 +60,10 @@
   max-width: 210px;
 }
 
+/* Past Projects */
+.portfoliocollage-article-container {
+  flex-direction: column;
+  gap: 0px;
+}
+
 }
