@@ -45,5 +45,19 @@
 
 }
 
-    
+/* Table of Content's Style */
+.portfoliocollage-tableofcontent {
+  padding: 20px;
+}
+
+.portfoliocollage-tableofcontent hr {
+  width: 210px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.portfoliocollage-buttons {
+  max-width: 210px;
+}
+
 }

@@ -56,26 +56,37 @@
   display: flex;
 }
 
+/* Table of Content's Style */
+.portfoliocollage-tableofcontent {
+  border: 2px solid #000319;
+  padding: 30px;
+}
+
+.portfoliocollage-tableofcontent hr {
+  border: 2px solid #000319;
+  width: 400px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 .portfoliocollage-buttons {
-  display: grid; /* Allows padding and margins */
+  display: grid;
   padding: 6px;
   background-color: transparent;
-  border: 0px solid #2f3fbb; /* A nice blue color for the outline */
-  border-radius: 5px;      /* Rounded corners */
-  text-decoration: none;     /* Removes the default link underline */
+  border-radius: 5px; 
+  text-decoration: none;
   font-weight: bold;
   text-align: left;
-  color: #ffffff !important;      
-  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  transition: all 0.3s ease;
   margin-left: 0px;
   margin-bottom: 10px;
   scroll-behavior: smooth;
+  max-width: 400px;
 }
 
 /* Style for when you hover over the button */
 .portfoliocollage-buttons:hover {
   background-color: #000319;
   border: 2px solid #000319;
-  color: #ffffff !important;
   transform: scale(1.03);
 }
