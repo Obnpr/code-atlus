@@ -1,0 +1,184 @@
+.portfoliocollage-content {
+  background-color: #282b39;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0px;
+  flex-grow: 1;
+  color: white;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 80%;
+  min-width: 1000px;
+  max-width: 1000px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.portfoliocollage-div h1 {
+  margin-top: 10px;
+}
+
+.portfoliocollage-div h2 {
+  font-size: 26px;
+}
+
+.portfoliocollage-div h3 {
+  font-size: 24px;
+}
+
+.portfoliocollage-div ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.portfoliocollage-div li {
+  margin: 5px 0;
+}
+
+.portfoliocollage-div a {
+  text-decoration: none;
+  color: white;
+}
+
+.portfoliocollage-div:hover a {
+  text-decoration: none;
+  color: white;
+}
+
+.portfoliocollage-content hr {
+    max-width: 700px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.portfoliocollage-dateformat {
+  display: flex;
+}
+
+/* Table of Content's Style */
+.portfoliocollage-tableofcontent {
+  border: 2px solid #000319;
+  padding: 30px;
+}
+
+.portfoliocollage-tableofcontent hr {
+  border: 2px solid #000319;
+  width: 400px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.portfoliocollage-tableofcontent-buttons {
+  display: grid;
+  padding: 6px;
+  background-color: transparent;
+  border-radius: 5px; 
+  text-decoration: none;
+  font-weight: bold;
+  text-align: left;
+  transition: all 0.3s ease;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  scroll-behavior: smooth;
+  max-width: 400px;
+}
+
+/* Style for when you hover over the button */
+.portfoliocollage-tableofcontent-buttons:hover {
+  background-color: #000319;
+  border: 2px solid #000319;
+  transform: scale(1.03);
+}
+
+/* Used for projects formating */
+.portfoliocollage-article-container {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  gap: 25px;
+}
+
+/*Box Related*/
+.portfoliocollage-article-box {
+  flex: 1;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.portfoliocollage-article-box img{
+  object-fit: cover;
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.portfoliocollage-article-box-logo img{
+  max-width: 20%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.portfoliocollage-article-titlelogo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.portfoliocollage-article-titlelogo h3{
+  margin-bottom: 25px;
+}
+
+.portfoliocollage-article-titlelogo img {
+  width: 70px;
+}
+
+.portfoliocollage-paragraph-link {
+  text-decoration: underline !important;
+  color: #67b3ff !important;
+}
+
+/*Button Related*/
+.portfoliocollage-article-container a:not([disabled]):hover {
+  color: #ffffff !important;
+  transform: scale(1.10);
+}
+
+a#is-disabled {
+  color: #a7a7a7 !important;
+  background-color: #17182b;
+  border: 5px solid #17182b;
+  cursor: not-allowed;
+  transform: scale(1.00);
+}
+
+.portfoliocollage-article-button-alignment {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  left: 100px;
+  margin-left: 17px;
+  margin-bottom: 100px;
+}
+
+.portfoliocollage-article-button-alignment {
+  display: flex;
+  align-items: center;
+  margin-bottom: -10;
+  color: #ffffff !important;
+  background-color: #17182b;
+  border: 5px solid #17182b;
+  padding: 8px 17px;
+  border-radius: 5px; 
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;    
+  transition: all 0.3s ease;
+}

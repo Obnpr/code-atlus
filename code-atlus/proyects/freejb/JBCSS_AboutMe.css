@@ -1,0 +1,72 @@
+body {
+  background-color: #EEE2DC;
+}
+
+#TopImg {
+  border-radius: 8px;
+  border: 1.2px solid #AC3B61;
+  padding: 5px;
+}
+
+.Menubackground {
+  margin: 1px;
+  padding: 1px;
+  width: 88%;
+  height: 80px;
+  background: #AC3B61;
+  border: 3px solid #6b1431;
+}
+
+Menubutton {
+  background-color: #EDC7B7;
+  border-radius: 10px;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:link {
+  color: #6b1431;
+  background-color: transparent;
+}
+
+a:visited {
+  color: #6b1431;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #AC3B61;
+  background-color: transparent;
+}
+
+a:active {
+  color: red;
+  background-color: transparent;
+}
+
+p, h1, h2, h3, a {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2px;
+  margin-top: 2px;
+}
+
+img {
+  border-radius: 8px;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 35%;
+}
+
+th, td {
+  border: 0.7px solid #AC3B61;
+  padding: 6px;
+}
+
+tr:nth-child(even) {
+  background-color: #EDC7B7;
+}

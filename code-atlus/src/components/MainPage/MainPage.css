@@ -1,0 +1,113 @@
+/* Mouse Related */
+html, body {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="rgba(0, 0, 0, 0.5)"><circle cx="12" cy="12" r="10" stroke="white" stroke-width="2" fill="white"/></svg>') 12 12, auto !important; 
+}
+
+/* Force Button (a & Button) and input/Hover on Button, etc.. to use the custom Mouse */
+a,
+button,
+[role="button"],
+input[type="submit"],
+input[type="reset"],
+label[for],
+select {
+  cursor: inherit !important;
+}
+
+/* Structure the Sidebar and main-content-view correctly */
+.components-structured {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+body {
+  background-color: #000319 !important;
+  overflow-x: hidden; 
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main-content-box {
+  background-color: #282b39;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0px;
+  flex-grow: 1;
+  color: white;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 80%;
+  min-width: 1000px;
+  max-width: 1000px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.main-content-box h1 {
+  font-size: 2.5rem;
+  margin-top: 10px;
+}
+
+.main-content-box h2 {
+  font-size: 2.0rem;
+}
+
+.main-content-box h3 {
+  font-size: 1.8rem;
+}
+
+.main-content-box h4 {
+  font-size: 1.5rem;
+}
+
+.main-content-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.main-content-box a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-content-box a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+[data-status="sidebar-collapsed"] {
+  margin-top: 200px;
+}
+
+/* Convinience */
+.static-scrollup {
+  position: sticky;
+  width: 70px;
+  height: 70px;
+  top: 800px;
+  right: 800px;
+  z-index: 1000;
+  background-color: transparent;
+}
+
+.static-scrollup button{
+  position: sticky;
+  width: 100px;
+  height: 100px;
+  top: 100px;
+  right: 200px;
+  z-index: 1000;
+  background-color: transparent;
+  border: transparent;
+}
+
+
+/* Accessibility */
+

@@ -1,0 +1,106 @@
+@media (max-width: 780px) {
+/* Structure the Sidebar and main-content-view correctly */
+  .components-structured {
+    display: grid;
+    justify-content: space-between;
+    flex-grow: 1;
+    gap: 15px;
+  }
+
+/* Main content */
+  .main-content-box {
+    width: 90%;
+    padding: 20px;
+    min-width: 335px;
+    max-width: 335px;
+    margin-left: 10px;
+    margin-top: -15px;
+  }
+
+  .main-content-box h1, h2, h3, h4, ul, li, p {
+    max-width: 300px;
+  }
+
+  .main-content-box h1 {
+    font-size: 1.8rem;
+  }
+
+  .main-content-box h2 {
+    font-size: 1.6rem;
+  }
+
+  .main-content-box h3 {
+    font-size: 1.4rem;
+  }
+
+  .main-content-box h4 {
+    font-size: 1.2rem;
+  }
+
+  .main-content-box ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .main-content-box hr {
+    max-width: 290px;
+  }
+
+/* Header */
+  .header-list {
+    padding: 0px;
+}
+
+  .header-obedn-logo {
+    width: 300px;
+}
+
+  .sidebar-collapse-button {
+    width: 50px;
+    margin-bottom: -10px;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+
+/* Sidebar */
+  .sidebar {
+    display: flex;
+    min-width: 335px;
+    max-width: 335px;
+    margin-left: 10px;
+  }
+  .sidebar a {
+    margin: 10px 0;
+    width: 180px;
+  }
+
+  .sidebar img {
+    margin: 10px 0;
+    width: 100px;
+    display: flex;
+  }
+
+/* Convinience */
+.static-scrollup {
+  position: sticky;
+  width: 75px;
+  height: 75px;
+  top: 690px;
+  right: 600px;
+  z-index: 1000;
+  background-color: transparent;
+}
+
+.static-scrollup button{
+  position: sticky;
+  width: 100px;
+  height: 100px;
+  top: 100px;
+  right: 200px;
+  z-index: 1000;
+  background-color: transparent;
+  border: transparent;
+}
+
+}

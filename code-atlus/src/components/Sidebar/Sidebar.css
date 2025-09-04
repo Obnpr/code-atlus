@@ -1,0 +1,82 @@
+.sidebar {
+  background-color: #17182b;
+  color: white !important;
+  width: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar-seperator-before {
+  padding-bottom: 10px;
+}
+
+.sidebar-seperator-after {
+  border-top: 3px solid #cccccc;
+  padding-top: 10px;
+  margin-bottom: -10px;
+}
+
+.sidebar-buttons {
+  border: 0px solid #000319;
+  display: grid;
+  padding: 5px;
+  background-color: transparent;
+  border-radius: 7px;      /* Rounded corners */
+  text-decoration: none;     /* Removes the default link underline */
+  font-weight: bold;
+  text-align: left;    
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+
+/* Style for when you hover over the button */
+.sidebar-buttons:hover {
+  background-color: #000319;
+  border: 2px solid #000319;
+  color: white !important;
+  transform: scale(1.10);
+}
+
+.sidebar-image-buttons {
+  width: 160px;
+  background-color: transparent;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+
+.sidebar-image-buttons:hover {
+  transform: scale(1.10);
+}
+
+.sidebar-collapsed {
+  width: 0px !important;
+  min-width: 0px;
+  height: 0px !important;
+  min-height: 0px;
+  padding: 0px !important;
+  margin: 0px !important;
+  border: none !important; 
+  overflow: hidden !important;
+  
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
