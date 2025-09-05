@@ -80,3 +80,7 @@
   visibility: hidden !important;
   pointer-events: none !important;
 }
+
+[data-status="sidebar-collapsed"] {
+  margin-top: 200px;
+}
