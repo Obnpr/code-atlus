@@ -2,8 +2,8 @@ import React, { useEffect } from 'react';
 import './AboutMe.css';
 
 function AboutMe() {
-  useEffect(() => { document.title = 'About Me — Obed Negrón';}, []);
-  //
+  // useEffect runs once after component mounts
+  useEffect(() => { document.title = 'Obed Negrón - About Me'; }, []);
   
   return (
     <>

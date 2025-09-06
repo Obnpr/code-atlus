@@ -25,7 +25,9 @@ function App() {
   };
   
   return (
+     
     <Router>
+      {/*
       {isUserDeepScrolling && (
       <button onClick={scrollToTop}>
         <img
@@ -36,6 +38,7 @@ function App() {
         </img>
       </button>
       )}
+      */}
       <div className="app">
         <Header onToggle={handleToggleSidebar} />
         <div className="components-structured">

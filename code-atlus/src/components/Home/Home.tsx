@@ -4,10 +4,8 @@ import './Home.css';
 import './HomeMobile.css';
 
 function HomePage() {
-  // useEffect runs once after component mounts - This is perfect!
-  useEffect(() => {
-    document.title = 'Home — Obed Negrón';
-  }, []);
+  // useEffect runs once after component mounts
+  useEffect(() => { document.title = 'Obed Negrón - Home'; }, []);
 
   return (
     <main className="main-content-box">

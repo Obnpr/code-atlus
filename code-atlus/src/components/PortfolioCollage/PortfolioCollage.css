@@ -103,6 +103,12 @@
 }
 
 /*Box Related*/
+.portfoliocollage-buttons-box {
+  margin-left: 13px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
 .portfoliocollage-article-box {
   flex: 1;
   box-sizing: border-box;
@@ -146,7 +152,23 @@
 }
 
 /*Button Related*/
-.portfoliocollage-article-container a:not([disabled]):hover {
+.portfoliocollage-buttons {
+  display: inline-block; 
+  padding: 8px 17px;
+  background-color: #17182b;
+  border: 5px solid #17182b;
+  border-radius: 5px; 
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff !important;      
+  transition: all 0.3s ease;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.portfoliocollage-buttons a:not([disabled]):hover {
   color: #ffffff !important;
   transform: scale(1.10);
 }
@@ -157,28 +179,4 @@ a#is-disabled {
   border: 5px solid #17182b;
   cursor: not-allowed;
   transform: scale(1.00);
-}
-
-.portfoliocollage-article-button-alignment {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  left: 100px;
-  margin-left: 17px;
-  margin-bottom: 100px;
-}
-
-.portfoliocollage-article-button-alignment {
-  display: flex;
-  align-items: center;
-  margin-bottom: -10;
-  color: #ffffff !important;
-  background-color: #17182b;
-  border: 5px solid #17182b;
-  padding: 8px 17px;
-  border-radius: 5px; 
-  text-decoration: none;
-  font-weight: bold;
-  text-align: center;    
-  transition: all 0.3s ease;
 }

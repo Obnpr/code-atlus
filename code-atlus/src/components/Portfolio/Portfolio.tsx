@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Portfolio.css';
 import './PortfolioMobile.css';
-const link = document.getElementById('is-disabled'); 
 
 const Portfolio: React.FC = () => {
+  // useEffect runs once after component mounts
+  useEffect(() => { document.title = 'Obed Negrón - Portfolio'; }, []);
 
   return (
     <>

@@ -4,8 +4,9 @@ import './PortfolioCollage.css';
 import './PortfolioCollageMobile.css';
 
 function PorfolioCollage() {
-  //  useEffect runs once after component mounts
-  useEffect(() => { document.title = 'Porfolio Collage — Obed Negrón';}, []);
+  // useEffect runs once after component mounts
+  useEffect(() => { document.title = 'Obed Negrón - Porfolio Collage';}, []);
+
   return (
     <>
     <main className="portfoliocollage-content">
@@ -123,16 +124,24 @@ function PorfolioCollage() {
                 src="./placeholder/game-image.webp"
                 alt="Placeholder Game Image"
               />
-                <h3>CienPi</h3>
-                <p>Early development. It's going to be a 2.5D isometric shooter game, fighting against crawling insects, and centipedes!</p>
-                <p>Platform: Steam and Itch.io</p>
-                <div className="portfoliocollage-article-button-alignment">
-                  <a
-                    id="is-disabled"
-                  >
-                    Github
-                  </a>
+                <h3>Lorem ipsum 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc turpis ante, commodo eget lectus in, ultricies vestibulum ex. Nullam fringilla elit leo, non pellentesque massa laoreet at. Praesent facilisis consectetur dictum.</p>
+                <p>Utilizes C++ only</p>
+
+                <div className="portfoliocollage-buttons-box">
+                  <ul>
+                      <a
+                        href="/pdf/Resume-ObedNegron.pdf" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="portfoliocollage-buttons"
+                        id="is-disabled"
+                      >
+                        Github
+                      </a>
+                  </ul>
                 </div>
+
             </div>
             <div className="portfoliocollage-article-box">
               <img
